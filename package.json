@@ -1,0 +1,22 @@
+{
+    "name": "vero-extension",
+    "version": "1.0.0",
+    "description": "A privacy-focused Chrome extension with AI guidance",
+    "main": "popup.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "dev": "webpack --mode development --watch"
+    },
+    "dependencies": {
+        "lucide-react": "^0.358.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.0",
+        "@babel/preset-react": "^7.23.3",
+        "babel-loader": "^9.1.3",
+        "webpack": "^5.90.3",
+        "webpack-cli": "^5.1.4"
+    }
+}
